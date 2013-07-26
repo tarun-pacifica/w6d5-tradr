@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WELCOME TO Tradr</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= javascript_include_tag "vendor/custom.modernizr" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<h1>tradR.</h1>
+<h4>Bullish Share Manager</h4>
+<%= yield %>
+<%=render :partial => 'layouts/nav' %>
+</body>
+</html>

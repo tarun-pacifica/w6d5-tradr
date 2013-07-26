@@ -1,0 +1,9 @@
+Project Brief: Design a Stock Market tool.
+Key features:
+/Users: login, access custom stocks, stock portfolio balance, cash on hand + current value of stocks
+/Stocks: Shares, Share price
+
+Tools to use:
+- Foundation or Bootstrap
+- Morris.js
+- Yahoo Finance Gem (HTTParty, JSON)

@@ -15,9 +15,9 @@ class UsersController < ApplicationController
       respond_to do |format|
       format.js {render :create}
     end
+  end
 
     def index
       @users = User.order(:email)
     end
-  end
 end

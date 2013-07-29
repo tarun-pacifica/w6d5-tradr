@@ -23,6 +23,7 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
   gem 'compass-rails' # you need this or you get an err
   gem 'zurb-foundation', '~> 4.0.0'
+  gem "yahoofinance", "~> 1.2.2"
 end
 
 gem 'jquery-rails'

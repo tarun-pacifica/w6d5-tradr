@@ -1,14 +1,17 @@
-h1 {
+header h1, header h4 {
 color: #900000;
 vertical-align: center;
+display: inline;
 }
 
-h4 {
-color: #900000;
-vertical-align: center;
-}
 
 html {
 /*  background-color: #300000*/
 color: #900000;
 }
+
+.row {
+  border: 1px solid red;
+  background-color: #00ff00;
+}
+

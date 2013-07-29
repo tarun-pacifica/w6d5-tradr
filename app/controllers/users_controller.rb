@@ -8,12 +8,16 @@ class UsersController < ApplicationController
     end
 
     def create
-      User.create(params[:User])
+      user = User.create(params[:user])
+      session[:user_id] = user.id
       @users = User.order(:email)
-
+      # what does line 14 do?
+      respond_to do |format|
+      format.js {render :create}
     end
 
     def index
       @users = User.order(:email)
     end
   end
+end

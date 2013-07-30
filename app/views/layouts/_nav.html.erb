@@ -9,8 +9,8 @@
     <div class="nav-bar right">
       <ul class="button-group">
         <li><%= link_to('Home', root_path,:class => 'button') %></li>
-        <li><%= link_to('View Users', users_path, :remote => true, :class => 'button') %></li>
-        <li><%= link_to('View Stocks', stocks_path, :class => 'button') %></li>
+        <li><%= link_to('Main Page', stocks_path,:class => 'button') %></li>
+        <li><%= link_to('Logout', login_path,:method=>:delete, :class => 'button') %></li>
       </ul>
     </div>
   </div>

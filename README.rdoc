@@ -7,3 +7,24 @@ Tools to use:
 - Foundation or Bootstrap
 - Morris.js
 - Yahoo Finance Gem (HTTParty, JSON)
+
+
+Stock Page
+1 List the current stocks
+2 Purchase button
+  => Stock Value : No of Shares * Current Price
+EXTRA:- Search for Stocks
+  - Returns Current Share Price(CSP) + Historical Share Price (HSP)
+
+
+Graph of stocks
+-  Shows current share price, Compares to previous share price
+3 Shows current portfolio with each stock
+
+
+Bank Account
+4 Return Current balance: (starting balance)+(change in portfolio value)
+EXTRA
+- Starting cash balance = Input
+- Starting portfolio value = ZERO
+- Current Portfolio value = [(Share Price * Shares)] (updated when any event occurs)

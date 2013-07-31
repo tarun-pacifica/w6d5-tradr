@@ -21,11 +21,17 @@ color: #900000;
 
 #chart {
   height: 250px;
-  border: 1pz solid grey;
+  border: 1px solid blue;
 }
 
 #main-box {
-  background-image: "/images/bull.jpg";
-  background-size: 100%;
-  opacity: 20%;
 }
+
+#landing {
+  background: url('images/bull.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 250px;
+  }

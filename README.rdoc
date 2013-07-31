@@ -28,3 +28,6 @@ EXTRA
 - Starting cash balance = Input
 - Starting portfolio value = ZERO
 - Current Portfolio value = [(Share Price * Shares)] (updated when any event occurs)
+
+
+GLOBAL LOGGED_IN SECURITY, should it be in the app helper file?

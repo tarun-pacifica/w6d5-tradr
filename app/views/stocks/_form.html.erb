@@ -1,0 +1,19 @@
+<form class = "custom">
+  <div class= "row">
+      <div class="large-6 columns">
+      </div>
+      <h3>Quote Manager</h3>
+      <div class="row collapse">
+        <div class="large-12 small-12 columns">
+          <input type="text" placeholder="QUOTECODE"/>
+        <input type="integer" placeholder="NUMBER OF SHARES" />
+        <ul class="button-group">
+          <li><%= link_to('quote', new_stock_path, :class => 'button') %></li>
+          <li><%= link_to('buy', new_stock_path, :class => 'button') %></li>
+          <li><%= link_to('sell', new_stock_path, :class => 'button') %></li>
+        </ul>
+                </div>
+      </div>
+
+  </div>
+</form>

@@ -1,4 +1,5 @@
 class UsersController < ApplicationController
+
     def new
       @user = User.new
       # respond_to do |format|
@@ -14,10 +15,18 @@ class UsersController < ApplicationController
       # what does line 14 do?
       respond_to do |format|
       format.js {render :create}
+      end
+    end
+
+    def index
+      @users=User.all
+    end
+
+    private
+  def logged_in_view
+    if @auth.nil?
+      redirect_to(root_path)
     end
   end
 
-    def index
-      @users = User.order(:email)
-    end
 end

@@ -3,31 +3,23 @@
     <div id="menu">
       <div class="section-container vertical-nav" data-section>
         <section>
-          <p class="title" data-section-title><a href="#">STOCKS</a></p>
-          <div class="title" data-section-title>
-            <p>Search</p>
-            <p>Purchase</p>
-            <p>Graph</p>
-          </div>
-        </section>
-        <section>
-          <p class="title" data-section-title><a href="#">Bank Data</a></p>
+          <h2 class="title" data-section-title><a href="#">Bank Data</a></h2>
             <div class="title" data-section-title>
-              <p>Current Balance</p>
-              <p>Current Portfolio Value</p>
-              <p>Change in Portfolio Value</p>
+              <p>Balance: $ </p>
+              <p>Portfolio Value: $ </p>
+              <p>Change in Portfolio Value: $ </p>
             </div>
         </section>
       </div>
     </div>
     <div id="form">
+      <%=render :partial => 'stocks/form' %>
     </div>
   </div>
   <div class="small-9 columns">
     <div id="list">
     </div>
-    <div id="chart">
-      2. show graphs for selected stocks
-    </div>
+    <%=render :partial => 'stocks/view' %>
   </div>
 </div>
+
